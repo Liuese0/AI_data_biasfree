@@ -46,6 +46,12 @@ export interface ValidationResult {
   warnings: string[];
 }
 
+export interface ValidationRequest {
+  job_id: string;
+  validation_type: 'quality' | 'bias' | 'privacy' | 'all';
+  reference_data?: Record<string, any>;
+}
+
 export interface MetricsData {
   timestamp: string;
   metrics: {

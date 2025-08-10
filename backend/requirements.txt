@@ -1,0 +1,54 @@
+# Core dependencies
+fastapi==0.108.0
+uvicorn[standard]==0.25.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.13.1
+
+# AI/ML
+transformers==4.36.2
+torch==2.1.2
+diffusers==0.25.0
+numpy==1.24.4
+pandas==2.1.4
+scikit-learn==1.3.2
+scipy==1.11.4
+
+# Synthetic data generation
+synthcity==0.2.8
+faker==21.0.0
+sdv==1.8.0
+
+# Bias detection & fairness
+fairlearn==0.10.0
+aif360==0.5.0
+
+# Causal inference
+dowhy==0.10.1
+
+# Constraint solving
+z3-solver==4.12.4.0
+
+# Redis & Celery
+redis==5.0.1
+celery==5.3.4
+
+# Monitoring & logging
+prometheus-client==0.19.0
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Utils
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+email-validator==2.1.0
+python-dotenv==1.0.0
